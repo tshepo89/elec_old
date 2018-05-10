@@ -1,0 +1,272 @@
+<!doctype html>
+    <html class="no-js" lang="en">
+        <head>
+            <meta charset="utf-8" />
+            <meta http-equiv="x-ua-compatible" content="ie=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>Foundation | Welcome</title>
+            <link rel="stylesheet" href="assets/css/reset.css">
+            <link rel="stylesheet" href="assets/css/style.css">
+            <link rel="stylesheet" href="assets/css/foundation.css" />
+            
+            <link rel="stylesheet" href="assets/css/app.css" />
+            <script src="assets/js/modernizr.js"></script>
+            
+            <style>
+                body {
+                    font-size: 100%;
+                    font-family: "Titillium Web", sans-serif;
+                    color: #4e6361;
+                }
+            </style>
+        </head>
+        <body>
+            <header class="fixed" style="background: #262626 !important;">
+                <a id="the-logo" href="#0"><img src="assets/img/the-logo.svg" alt="logo"></a>
+                <nav id="the-top-nav">
+                    <ul>
+                      
+                        <li><a href="questions/">Home</a></li>
+                        <li><a data-open="the-signup-modal">Open Account</a></li>
+                        <li><a data-open="the-signup-modal">Logout</a></li>
+                    </ul>
+                </nav>
+                <a id="the-menu-trigger" href="#0"><span class="the-menu-text">Menu</span></a>
+            </header>
+            <nav id="the-lateral-nav">
+                <ul class="the-navigation">
+                    <li class="item-has-children">
+                        <a href="#0">our products</a>
+                        <ul class="sub-menu">
+                            <li><a href="#0">Overview</a></li>
+                            <li><a href="#0">Explore</a></li>
+                            <li><a href="#0">Mobile Apps</a></li>
+                        </ul>
+                    </li> <!-- item-has-children -->
+
+                    <li class="item-has-children">
+                        <a href="#0">Why us</a>
+                        <ul class="sub-menu">
+                            <li><a href="#0">Trade Unique Ideas</a></li>
+                            <li><a href="#0">Redefined Investing</a></li>
+                            <li><a href="#0">Transparency &amp; Control</a></li>
+                            <li><a href="#0">Leverage Expertise</a></li>
+                        </ul>
+                    </li> <!-- item-has-children -->
+
+                    <li class="item-has-children">
+                        <a href="#0">Who we are</a>
+                        <ul class="sub-menu">
+                            <li><a href="#0">About Us</a></li>
+                            <li><a href="#0">Press</a></li>
+                            <li><a href="#0">Careers</a></li>
+                            <li><a href="#0">Blog</a></li>
+                        </ul>
+                    </li> <!-- item-has-children -->
+                </ul> <!-- the-navigation -->
+
+                <ul class="the-navigation the-single-item-wrapper">
+                    <li><a href="questions/index.html">Sign In</a></li>
+                    <li><a data-open="the-signup-modal">Open Account</a></li>
+                    <li><a href="#0">Support</a></li>
+                </ul> <!-- the-single-item-wrapper -->
+
+                <ul class="the-navigation the-single-item-wrapper">
+                    <li><a href="#0">FAQ</a></li>
+                    <li><a href="#0">Terms &amp; Conditions</a></li>
+                    <li><a href="#0">Careers</a></li>
+                </ul> <!-- the-single-item-wrapper -->
+            </nav>
+            <div class="reveal medium" id="the-signup-modal" data-reveal>
+                <br/>
+                <br/>
+                <h4 class="text-center subheader">CONFIRM BENEFICIARY</h4>
+                <hr class="dotted">
+                <div class="row">
+                    <h5 class="text-center subheader">You are about to add the following beneficiary. Please ensure the provided information is correct.</h5>
+                    <div class="large-12 columns large-centered">              
+                        <form name="" data-abide novalidate action="">
+                            <div data-abide-error class="alert callout" style="display: none;">
+                                <p><i class="fi-alert"></i> There are some errors in your form.</p>
+                            </div>
+                            <label>
+                                <b>First Name</b>
+                                <input type="text" required pattern="[a-zA-Z]+" placeholder="Tshepo" name="" value="Tshepo"/>
+                                <span class="form-error">First Name required.</span>
+                            </label>
+                            <?php echo "test"; ?>
+                            <label>
+                                <b>Last Name</b>
+                                <input type="text" required pattern="[a-zA-Z]+" placeholder="Morailane" name="" value="Morailane"/>
+                                <span class="form-error">Last Name required</span>
+                            </label>
+                            <label>
+                                <b>Email Address</b>
+                                <input type="email" required pattern="[a-zA-Z]+" placeholder="morailane@gmail.com" name="" value="tshepo@mukoni.co.za"/>
+                                <span class="form-error">Enter a vailed email address.</span>
+                            </label>
+                            <label>
+                                <b>Cellphone</b>
+                                <input type="tel" required placeholder="0113443222" aria-describedby="exampleHelpText" required pattern="number" name="" value="0822123133"/>
+                                <span class="form-error">Invalid Cellphone number. Format required 0123556789</span>
+                            </label>
+                            <label>
+                                <b>Residential Address</b>
+                                <input type="text" style="height: 100px;" required placeholder="11 Rooivalk close" required pattern="[a-zA-Z]+" name="" value="12 Historica Street"/>
+                                <span class="form-error">Please enter your Address.</span>
+                            </label>
+                            <label>
+                                <b>Meter no</b>
+                                <input type="tel" required placeholder="0113443222" aria-describedby="exampleHelpText" required pattern="number" name="" value="0165544400"/>
+                                <span class="form-error">Invalid Meter number. Verify meter number.</span>
+                            </label>
+                            
+                            <p><button class="button expanded" type="submit" value="Submit"><b>CONFIRM<b></button>
+                        </form>
+                    </div>
+                </div>
+                <button class="close-button" data-close aria-label="Close reveal" type="button">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <nav id="the-vertical-nav">
+                <ul style="list-style-type: none;">
+                    <li>
+                        <a href="#section1" data-number="1">
+                            <span class="the-dot"></span>
+                            <span class="the-label">intro</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#section2" data-number="2">
+                            <span class="the-dot"></span>
+                            <span class="the-label">the way you see the world</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#section3" data-number="3">
+                            <span class="the-dot"></span>
+                            <span class="the-label">how you think and work</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#section4" data-number="4">
+                            <span class="the-dot"></span>
+                            <span class="the-label">you always know</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#section5" data-number="5">
+                            <span class="the-dot"></span>
+                            <span class="the-label">you know how</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#section6" data-number="6">
+                            <span class="the-dot"></span>
+                            <span class="the-label">get started</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <a class="the-nav-trigger the-img-replace">Open navigation<span></span></a>
+            <section id="section1" class="the-section">
+                <video id="my-video" style="width: 100vw !important;" class="video" autoplay muted loop>
+                    <source src="assets/vid/NYC-Traffic.mp4" type="video/mp4">
+                </video>
+                <h1>Enjoy one-click investing in a trend.</h1><br/>
+                <label style="position: absolute; top: 60%; left: 50%; color: #fff;">
+                See why Motif is a new kind of online broker, built around you.<br/><br/>
+                    <a data-open="the-signup-modal" class="radius medium button">
+                <b>OPEN ACCOUNT</b></a></label>
+                <a href="#section2" class="the-scroll-down the-img-replace" style="z-index: 1;">scroll down</a>
+            </section>
+
+            <section id="section2" class="the-section">
+                <div class="large-6 columns" style="padding: 20rem 6.7rem;">
+                    <h2 class="subheader">01</h2>
+                    <h5>
+                        <b>Built for the way you see the world.</b>
+                    </h5>
+                    <p>You live in a world of insights, but like many traders, you can’t act on them. And it’s mostly because the industry hasn’t made it easy for you. With Motif, you can access and translate real insights into investments and returns like never before.</p>
+                    <a href=""><b>READ MORE</b></a>
+                </div>
+                <div class="large-6 columns text-center" style="padding-top: 17rem;">
+                    <img src="assets/img/3.png" />
+                </div>
+            </section>
+
+            <section id="section3" class="the-section>
+                <div class="large-6 columns text-center" style="padding-top: 20rem;">
+                    <img src="assets/img/2.png" />
+                </div>
+                <div class="large-6 columns" style="padding: 20rem 6.7rem;">
+                    <h2 class="subheader">02</h2>
+                    <h4>
+                        <b>Built for how you think and work.</b>
+                    </h4>
+                    <p>You think in insights and trends, dollars and cents—and common sense. Now you can invest and trade in those ways: buy a trend in a single click and trade in dollar amounts, not shares. We’ve built the future of trading in a way that works for you.</p>
+                    <a href=""><b>READ MORE</b></a>
+                </div>
+            </section>
+
+            <section id="section4" class="the-section">
+                <div class="large-6 columns" style="padding: 20rem 6.7rem;">
+                    <h2 class="subheader">03</h2>
+                    <h4>
+                        <b>Built so you always know.</b>
+                    </h4>
+                    <p>Many investments don’t offer a clear picture of holdings and pricing when you need them most. You want to see and understand what you own, what it’s worth and what it costs to trade, at all times. No hidden costs, no management fees. Now you can.</p>
+                    <a href=""><b>READ MORE</b></a>
+                </div>
+                <div class="large-6 columns text-center" style="padding-top: 22rem;">
+                    <img src="assets/img/4.png" />
+                </div>
+            </section>
+
+            <section id="section5" class="the-section">
+                <div class="large-6 columns text-center" style="padding-top: 20rem;">
+                    <img src="assets/img/1.png" />
+                </div>
+                <div class="large-6 columns" style="padding: 20rem 6.7rem;">
+                    <h2 class="subheader">04</h2>
+                    <h4>
+                        <b>Built with your know-how.</b>
+                    </h4>
+                    <p>Imagine using your own expert insights, or tapping into those of 200,000 other investors, to build your own motifs. Now you can. And you can get paid when others use your custom ideas. Bet your old-line broker doesn’t do that.</p>
+                    <a href=""><b>READ MORE</b></a>
+                </div>
+            </section>
+
+            <section id="section6" class="the-section">
+                <h1 style="color: #262626;">Enjoy one-click investing in a trend.</h1><br/>
+                <label style="position: absolute; top: 60%; left: 50%; color: #262626;">
+                    <a data-open="the-signup-modal" class="radius medium button">
+                <b>OPEN ACCOUNT</b></a></label>
+                <footer class="footer">
+                    <div class="row">
+                        <div class="small-12 columns">
+                            <p class="slogan">c</p>
+                            <p class="links">
+                            <a href="#">Home</a>
+                            <a href="#">Blog</a>
+                            <a href="#">Pricing</a>
+                            <a href="#">About</a>
+                            <a href="#">Faq</a>
+                            <a href="#">Contact</a>
+                            </p>
+                            <p class="copywrite">C © 2016</p>
+                        </div>
+                    </div>
+                </footer>
+            </section>
+            <script src="assets/js/vendor/jquery.js"></script>
+            <script src="assets/js/vendor/what-input.js"></script>
+            <script src="assets/js/vendor/foundation.js"></script>
+            <script src="assets/js/vendor/what-input.js"></script>
+            <script src="assets/js/app.js"></script>
+            <script src="assets/js/main.js"></script>
+            
+           
+        </body>
+    </html>
